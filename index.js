@@ -18,26 +18,24 @@ function divide(a,b){
 }
 //  let n=4;
 function increment(n){
-    return (n+=1);
+    return n+=1;
 
 }
 increment(n);
 
 function decrement(n){
-    return (n -= 1);
+    return n -= 1;
 
 }
 
-// let string=4.33
-function makeInt(string){
-    return `${string}`;
-     parseInt("string",10);
+ //let string=4.33
+function makeInt(n){
+    return parseInt(n,10);
 
 }
-console.log(parseInt(4.33))
 
-function preserveDecimal(string){
-    return  `${string};`
-    parseFloat 
+
+function preserveDecimal(n){
+    return  parsefloat(n);
 
 }
